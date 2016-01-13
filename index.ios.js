@@ -9,7 +9,7 @@ var {
 
 class ReactNativeStarter extends React.Component {
   clickMe() {
-    alert('Hi theeeeere!');
+    alert('Hi there!');
   }
   render() {
     return (
