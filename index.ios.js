@@ -16,7 +16,7 @@ class ReactNativeStarter extends React.Component {
       <View style={styles.container}>
         <TouchableOpacity onPress={this.clickMe.bind(this)}>
           <View style={styles.box}>
-            <Text>Hello {this.props.name}. Pleeeeeease click me.</Text>
+            <Text>Hello. Please click me.</Text>
           </View>
         </TouchableOpacity>
       </View>
