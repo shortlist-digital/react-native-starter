@@ -9,14 +9,14 @@ var {
 
 class StylistLive extends React.Component {
   clickMe() {
-    alert('Hi there!');
+    alert('Hi theeeeere!');
   }
   render() {
     return (
       <View style={styles.container}>
         <TouchableOpacity onPress={this.clickMe.bind(this)}>
           <View style={styles.box}>
-            <Text>Hello {this.props.name}. Please click me.</Text>
+            <Text>Hello {this.props.name}. Pleeeeeease click me.</Text>
           </View>
         </TouchableOpacity>
       </View>
