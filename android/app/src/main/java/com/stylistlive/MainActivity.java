@@ -30,7 +30,7 @@ public class MainActivity extends Activity implements DefaultHardwareBackBtnHand
                 .setInitialLifecycleState(LifecycleState.RESUMED)
                 .build();
 
-        mReactRootView.startReactApplication(mReactInstanceManager, "StylistLive", null);
+        mReactRootView.startReactApplication(mReactInstanceManager, "ReactNativeStarter", null);
 
         setContentView(mReactRootView);
     }

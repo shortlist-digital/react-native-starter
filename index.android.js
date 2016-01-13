@@ -12,7 +12,7 @@ var {
   View,
 } = React;
 
-var StylistLive = React.createClass({
+var ReactNativeStarter = React.createClass({
   render: function() {
     return (
       <View style={styles.container}>
@@ -49,4 +49,4 @@ var styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('StylistLive', () => StylistLive);
+AppRegistry.registerComponent('ReactNativeStarter', () => ReactNativeStarter);
