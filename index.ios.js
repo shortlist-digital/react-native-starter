@@ -7,7 +7,7 @@ var {
   AppRegistry
 } = React;
 
-class StylistLive extends React.Component {
+class ReactNativeStarter extends React.Component {
   clickMe() {
     alert('Hi theeeeere!');
   }
@@ -42,8 +42,8 @@ var styles = StyleSheet.create({
 
 var MainComponent = function() {
   this.render = function() {
-    return <StylistLive name="Component" />;
+    return <ReactNativeStarter name="Component" />;
   }
 };
 
-AppRegistry.registerComponent('StylistLive', () => StylistLive);
+AppRegistry.registerComponent('ReactNativeStarter', () => ReactNativeStarter);
