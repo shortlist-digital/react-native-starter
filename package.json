@@ -1,0 +1,19 @@
+{
+  "name": "react-native-starter",
+  "version": "1.0.0",
+  "description": "Starting point for react native apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shortlist-digital/react-native-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shortlist-digital/react-native-starter/issues"
+  },
+  "homepage": "https://github.com/shortlist-digital/react-native-starter#readme"
+}
