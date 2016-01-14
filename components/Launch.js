@@ -3,14 +3,14 @@
 import React, { Component } from 'react-native'
 import Button from 'apsl-react-native-button'
 
-let {
+const {
   View,
   Text,
   StyleSheet,
   TouchableHighlight
 } = React
 
-let Actions = require('react-native-router-flux').Actions
+const Actions = require('react-native-router-flux').Actions
 
 
 export default class Launch extends Component {

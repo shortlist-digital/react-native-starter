@@ -2,7 +2,7 @@
 
 import React from 'react-native';
 
-let {
+const {
   AppRegistry,
   Navigator,
   StyleSheet,

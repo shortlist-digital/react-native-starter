@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react-native'
 
-let {
+const {
   View,
   Text,
   StyleSheet

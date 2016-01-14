@@ -3,9 +3,9 @@
 import React, { Component } from 'react-native';
 import Button from 'apsl-react-native-button'
 
-let Actions = require('react-native-router-flux').Actions
+const Actions = require('react-native-router-flux').Actions
 
-let {
+const {
   View,
   Text,
   StyleSheet

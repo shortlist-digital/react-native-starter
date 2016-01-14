@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react'
 
-let {
+const {
   View,
   Text,
   StyleSheet

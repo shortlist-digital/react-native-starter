@@ -6,7 +6,7 @@ import FromBottom from './components/FromBottom'
 import Error from './components/Error'
 import TabView from './components/TabView'
 
-let {
+const {
   Router,
   Route,
   Schema,
@@ -14,7 +14,7 @@ let {
   TabBar
 } = require('react-native-router-flux')
 
-let {
+const {
   AppRegistry,
   Navigator,
   StyleSheet,
