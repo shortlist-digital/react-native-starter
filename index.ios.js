@@ -1,15 +1,15 @@
 'use strict';
 
-var React = require('react-native');
+import React from 'react-native';
 
-var {
+let {
   AppRegistry,
   Navigator,
   StyleSheet,
   Text,
   View
-} = React;
+} = React
 
-import App from './ReactStart';
+import App from './ReactStart'
 
-AppRegistry.registerComponent('ReactNativeStarter', () => App);
+AppRegistry.registerComponent('ReactNativeStarter', () => App)

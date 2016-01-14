@@ -1,11 +1,19 @@
 'use strict';
 
-var React = require('react-native');
-var {View, Text, StyleSheet, TouchableHighlight} = React;
-var Button = require('apsl-react-native-button');
-var Actions = require('react-native-router-flux').Actions;
+import React, { Component } from 'react-native'
+import Button from 'apsl-react-native-button'
 
-class Launch extends React.Component {
+let {
+  View,
+  Text,
+  StyleSheet,
+  TouchableHighlight
+} = React
+
+let Actions = require('react-native-router-flux').Actions
+
+
+export default class Launch extends Component {
   render(){
     return (
       <View style={styles.container}>
@@ -17,13 +25,13 @@ class Launch extends React.Component {
   }
 }
 
-var styles = StyleSheet.create({
-  container: {
+let styles = StyleSheet.create({
+   container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'transparent',
+    backgroundColor: '#F5FCFF',
   }
-});
+})
 
-module.exports = Launch;
+module.exports = Launch

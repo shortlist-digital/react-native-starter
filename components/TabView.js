@@ -1,17 +1,18 @@
 'use strict';
 
-var React = require('react-native');
-var Button = require('apsl-react-native-button');
-var Actions = require('react-native-router-flux').Actions;
+import React, { Component } from 'react-native';
+import Button from 'apsl-react-native-button'
 
-var {
+let Actions = require('react-native-router-flux').Actions
+
+let {
   View,
   Text,
   StyleSheet
-} = React;
+} = React
 
 
-class TabView extends React.Component {
+export default class TabView extends Component {
   render(){
     return (
       <View style={styles.container}>
@@ -25,13 +26,13 @@ class TabView extends React.Component {
   }
 }
 
-var styles = StyleSheet.create({
+let styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
   }
-});
+})
 
-module.exports = TabView;
+module.exports = TabView

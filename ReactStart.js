@@ -1,28 +1,42 @@
 'use strict';
 
-var React = require('react-native');
-var {AppRegistry, Navigator, StyleSheet,Text,View} = React;
-var Launch = require('./components/Launch');
-var FromBottom = require('./components/FromBottom');
-var {Router, Route, Schema, Animations, TabBar} = require('react-native-router-flux');
-var Error = require('./components/Error');
-var TabView = require('./components/TabView');
+import React, { Component } from 'react-native'
+import Launch from './components/Launch'
+import FromBottom from './components/FromBottom'
+import Error from './components/Error'
+import TabView from './components/TabView'
 
-class TabIcon extends React.Component {
+let {
+  Router,
+  Route,
+  Schema,
+  Animations,
+  TabBar
+} = require('react-native-router-flux')
+
+let {
+  AppRegistry,
+  Navigator,
+  StyleSheet,
+  Text,
+  View
+} = React
+
+export default class TabIcon extends Component {
     render(){
         return (
             <Text style={{color: this.props.selected ? 'red' :'black'}}>{this.props.title}</Text>
-        );
+        )
     }
 }
 
-class Header extends React.Component {
+export default class Header extends Component {
     render(){
         return <Text>Header</Text>
     }
 }
 
-export default class Example extends React.Component {
+export default class Example extends Component {
   render() {
     return (
       <Router hideNavBar={true} >
@@ -54,6 +68,6 @@ export default class Example extends React.Component {
         <Route name="launch" header={Header} component={Launch} wrapRouter={true} title="Launch" hideNavBar={true} initial={true}/>
 
       </Router>
-    );
+    )
   }
 }
