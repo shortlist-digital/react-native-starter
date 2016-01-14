@@ -1,49 +1,15 @@
+'use strict';
+
 var React = require('react-native');
+
 var {
-  View, 
-  Text, 
-  StyleSheet, 
-  TouchableOpacity, 
-  AppRegistry
+  AppRegistry,
+  Navigator,
+  StyleSheet,
+  Text,
+  View
 } = React;
 
-class ReactNativeStarter extends React.Component {
-  clickMe() {
-    alert('Hi there!');
-  }
-  render() {
-    return (
-      <View style={styles.container}>
-        <TouchableOpacity onPress={this.clickMe.bind(this)}>
-          <View style={styles.box}>
-            <Text>Hello {this.props.name}. Pleeeeeease click me.</Text>
-          </View>
-        </TouchableOpacity>
-      </View>
-    );
-  }
-}
+import App from './ReactStart';
 
-var styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-  box: {
-    borderColor: 'red',
-    backgroundColor: '#fff',
-    borderWidth: 1,
-    padding: 10,
-    width: 100,
-    height: 100
-  }
-});
-
-var MainComponent = function() {
-  this.render = function() {
-    return <ReactNativeStarter name="Component" />;
-  }
-};
-
-AppRegistry.registerComponent('ReactNativeStarter', () => ReactNativeStarter);
+AppRegistry.registerComponent('ReactNativeStarter', () => App);
