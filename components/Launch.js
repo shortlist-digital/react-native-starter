@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 import React, { Component } from 'react-native'
 import Button from 'apsl-react-native-button'
@@ -7,7 +7,7 @@ const {
   View,
   Text,
   StyleSheet,
-  TouchableHighlight
+  TouchableHighlight,
 } = React
 
 const Actions = require('react-native-router-flux').Actions
@@ -26,12 +26,12 @@ export default class Launch extends Component {
 }
 
 let styles = StyleSheet.create({
-   container: {
+  container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
-  }
+  },
 })
 
-module.exports = Launch
+export default Launch

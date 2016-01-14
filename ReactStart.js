@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 import React, { Component } from 'react-native'
 import Launch from './components/Launch'
@@ -11,7 +11,7 @@ const {
   Route,
   Schema,
   Animations,
-  TabBar
+  TabBar,
 } = require('react-native-router-flux')
 
 const {
@@ -19,21 +19,15 @@ const {
   Navigator,
   StyleSheet,
   Text,
-  View
+  View,
 } = React
 
 export default class TabIcon extends Component {
-    render(){
-        return (
-            <Text style={{color: this.props.selected ? 'red' :'black'}}>{this.props.title}</Text>
-        )
-    }
-}
-
-export default class Header extends Component {
-    render(){
-        return <Text>Header</Text>
-    }
+  render(){
+    return (
+      <Text>{this.props.title}</Text>
+    )
+  }
 }
 
 export default class Example extends Component {
@@ -52,20 +46,20 @@ export default class Example extends Component {
         </Route>
 
         <Route name="tabbar">
-            <Router footer={TabBar} showNavigationBar={false}>
-                <Route name="tab1" schema="tab" title="Tab #1" >
-                    <Router onPop={()=>{return true} }>
-                        <Route name="tab1" component={TabView} title="Tab #1" />
-                    </Router>
-                </Route>
-                <Route name="tab2" schema="tab" title="Tab #2" component={TabView} />
-                <Route name="tab3" schema="tab" title="Tab #3" component={TabView} />
-                <Route name="tab4" schema="tab" title="Tab #4" component={TabView} />
-                <Route name="tab5" schema="tab" title="Tab #5" component={TabView} />
-            </Router>
+          <Router footer={TabBar} showNavigationBar={false}>
+              <Route name="tab1" schema="tab" title="Tab #1" >
+                <Router onPop={()=>{return true} }>
+                  <Route name="tab1" component={TabView} title="Tab #1" />
+                </Router>
+              </Route>
+              <Route name="tab2" schema="tab" title="Tab #2" component={TabView} />
+              <Route name="tab3" schema="tab" title="Tab #3" component={TabView} />
+              <Route name="tab4" schema="tab" title="Tab #4" component={TabView} />
+              <Route name="tab5" schema="tab" title="Tab #5" component={TabView} />
+          </Router>
         </Route>
 
-        <Route name="launch" header={Header} component={Launch} wrapRouter={true} title="Launch" hideNavBar={true} initial={true}/>
+        <Route name="launch" component={Launch} wrapRouter={true} title="Launch" hideNavBar={false} initial={true}/>
 
       </Router>
     )

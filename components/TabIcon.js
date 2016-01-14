@@ -1,11 +1,11 @@
-'use strict';
+'use strict'
 
 import React, { Component } from 'react-native'
 
 const {
   View,
   Text,
-  StyleSheet
+  StyleSheet,
 } = React
 
 export default class TabIcon extends Component {
@@ -16,4 +16,4 @@ export default class TabIcon extends Component {
   }
 }
 
-module.exports = TabIcon
+export default TabIcon

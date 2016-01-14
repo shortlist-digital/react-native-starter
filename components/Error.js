@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 import React, { Component } from 'react-native'
 import Button from 'apsl-react-native-button'
@@ -8,7 +8,7 @@ const Actions = require('react-native-router-flux').Actions
 const {
   View,
   Text,
-  StyleSheet
+  StyleSheet,
 } = React
 
 export default class Error extends Component {
@@ -28,9 +28,9 @@ let styles = StyleSheet.create({
     height:300,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor:'white'
+    backgroundColor:'white',
   },
 })
 
 
-module.exports = Error
+export default Error

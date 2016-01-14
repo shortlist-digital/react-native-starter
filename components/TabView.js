@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-import React, { Component } from 'react-native';
+import React, { Component } from 'react-native'
 import Button from 'apsl-react-native-button'
 
 const Actions = require('react-native-router-flux').Actions
@@ -8,7 +8,7 @@ const Actions = require('react-native-router-flux').Actions
 const {
   View,
   Text,
-  StyleSheet
+  StyleSheet,
 } = React
 
 
@@ -32,7 +32,7 @@ let styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
-  }
+  },
 })
 
-module.exports = TabView
+export default TabView
