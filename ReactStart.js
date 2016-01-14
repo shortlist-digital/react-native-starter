@@ -36,10 +36,11 @@ export default class Example extends React.Component {
                 <Route name="FromBottomModal" component={FromBottom} title="FromBottom" schema="modal"/>
             </Router>
         </Route>
+
         <Route name="tabbar">
             <Router footer={TabBar} showNavigationBar={false}>
                 <Route name="tab1" schema="tab" title="Tab #1" >
-                    <Router onPop={()=>{console.log("onPop is called!"); return true} }>
+                    <Router onPop={()=>{return true} }>
                         <Route name="tab1" component={TabView} title="Tab #1" />
                     </Router>
                 </Route>
@@ -49,7 +50,9 @@ export default class Example extends React.Component {
                 <Route name="tab5" schema="tab" title="Tab #5" component={TabView} />
             </Router>
         </Route>
+
         <Route name="launch" header={Header} component={Launch} wrapRouter={true} title="Launch" hideNavBar={true} initial={true}/>
+
       </Router>
     );
   }
