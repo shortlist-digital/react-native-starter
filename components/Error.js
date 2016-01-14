@@ -1,16 +1,17 @@
 'use strict';
 
-var React = require('react-native');
-var Button = require('apsl-react-native-button');
-var Actions = require('react-native-router-flux').Actions;
+import React, { Component } from 'react-native'
+import Button from 'apsl-react-native-button'
 
-var {
+let Actions = require('react-native-router-flux').Actions
+
+let {
   View,
   Text,
   StyleSheet
-} = React;
+} = React
 
-class Error extends React.Component {
+export default class Error extends Component {
   render(){
     return (
       <View style={styles.container}>
@@ -21,7 +22,7 @@ class Error extends React.Component {
   }
 }
 
-var styles = StyleSheet.create({
+let styles = StyleSheet.create({
   container: {
     width:300,
     height:300,
@@ -29,7 +30,7 @@ var styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor:'white'
   },
-});
+})
 
 
-module.exports = Error;
+module.exports = Error

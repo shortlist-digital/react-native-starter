@@ -1,16 +1,17 @@
 'use strict';
 
-var React = require('react-native');
-var Button = require('apsl-react-native-button');
-var Actions = require('react-native-router-flux').Actions;
+import React, { Component } from 'react-native'
+import Button from 'apsl-react-native-button'
 
-var {
+let Actions = require('react-native-router-flux').Actions
+
+let {
   View,
   Text,
   StyleSheet
 } = React;
 
-class FromBottom extends React.Component {
+export default class FromBottom extends Component {
   render(){
     return (
       <View style={styles.container}>
@@ -21,15 +22,15 @@ class FromBottom extends React.Component {
   }
 }
 
-var styles = StyleSheet.create({
+let styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
-});
+})
 
 
 
-module.exports = FromBottom;
+module.exports = FromBottom

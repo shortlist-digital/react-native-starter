@@ -1,14 +1,14 @@
 'use strict';
 
-var React = require('react-native');
+import React, { Component } from 'react-native'
 
-var {
+let {
   View,
   Text,
   StyleSheet
-} = React;
+} = React
 
-class TabIcon extends React.Component {
+export default class TabIcon extends Component {
   render(){
     return (
       <Text style={{color: this.props.selected ? 'red' :'black'}}>{this.props.title}</Text>
@@ -16,4 +16,4 @@ class TabIcon extends React.Component {
   }
 }
 
-module.exports = TabIcon;
+module.exports = TabIcon
