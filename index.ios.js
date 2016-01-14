@@ -23,7 +23,7 @@ var HelloPage = React.createClass({
       <View style={styles.container}>
         <TouchableOpacity onPress={this.nextPage}>
           <View style={styles.box}>
-            <Text>Hello {this.props.name}. Please click me.</Text>
+            <Text>Hello. Please click me.</Text>
           </View>
         </TouchableOpacity>
       </View>
@@ -51,16 +51,6 @@ var styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
   },
 });
 
