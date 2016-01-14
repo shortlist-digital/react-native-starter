@@ -25,6 +25,9 @@ After this quit the terminal that the app server opened up in earlier as this lo
 
 Go to the ```AppDelegate.m``` file of Xcode, on line 36 where it asks for your URL change 'localhost' to the IP address of your computer. (you can get this by typing `ifconfig` into the terminal). Make sure you computer and phone are on the same WIFI network.
 
-Once it is running on your phone, shake your phone to open the development menu and select `Enable Live Reload' so that you do not need to reload the app in Xcode anytime a code change is made. 
+Once it is running on your phone, shake your phone to open the development menu and select `Enable Live Reload' so that you do not need to reload the app in Xcode anytime a code change is made.
+
+##### Not working yet (them not me) but I figured out how to do it so thought it was worth noting down still
+You will also want to enable Enable Chrome Debugging too so go into the ```RCTWebSocketExecutor.m``` file in Xcode (Libraries/RCTWebSocket.xcodeproj) and change the localhost in this file to your IP address too. Then save, shake the phone and select 'Debug in Chrome'.
 
 
