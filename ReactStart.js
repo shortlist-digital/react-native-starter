@@ -1,3 +1,5 @@
+'use strict'
+
 import React, { Component } from 'react-native'
 import Launch from './components/Launch'
 import FromBottom from './components/FromBottom'
