@@ -20,6 +20,7 @@
   "dependencies": {
     "apsl-react-native-button": "^2.4.0",
     "react-native": "^0.17.0",
+    "react-native-device-info": "^0.8.1",
     "react-native-router-flux": "^2.0.9"
   },
   "devDependencies": {
