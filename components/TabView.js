@@ -1,5 +1,3 @@
-'use strict'
-
 import React, { Component } from 'react-native'
 import Button from 'apsl-react-native-button'
 
@@ -16,9 +14,7 @@ export default class TabView extends Component {
   render(){
     return (
       <View style={styles.container}>
-        {this.props.name === "tab1_1" &&
-        <Button onPress={Actions.tab1_2}>next screen</Button>
-        }
+        <Button onPress={Actions.tabbar}>Go to the next page</Button>
         <Button onPress={Actions.pop}>Go Back</Button>
       </View>
     );

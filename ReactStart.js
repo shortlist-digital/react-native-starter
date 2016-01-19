@@ -1,5 +1,3 @@
-'use strict'
-
 import React, { Component } from 'react-native'
 import Launch from './components/Launch'
 import FromBottom from './components/FromBottom'
@@ -33,7 +31,7 @@ export default class TabIcon extends Component {
 export default class Example extends Component {
   render() {
     return (
-      <Router hideNavBar={true} >
+      <Router showNavigationBar={true} >
         <Schema name="modal" sceneConfig={Navigator.SceneConfigs.FloatFromBottom}/>
         <Schema name="default" sceneConfig={Navigator.SceneConfigs.FloatFromRight}/>
         <Schema name="withoutAnimation"/>
@@ -59,7 +57,7 @@ export default class Example extends Component {
           </Router>
         </Route>
 
-        <Route name="launch" component={Launch} wrapRouter={true} title="Launch" hideNavBar={false} initial={true}/>
+        <Route name="launch" component={Launch} wrapRouter={true} title="Launch" initial={true}/>
 
       </Router>
     )
