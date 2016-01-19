@@ -2,10 +2,16 @@
  * Sample React Native App
  * https://github.com/facebook/react-native
  */
-'use strict';
+import React from 'react-native'
 
-var React = require('react-native');
-var {AppRegistry, Navigator, StyleSheet,Text,View} = React;
-import App from './ReactStart';
+const {
+  AppRegistry,
+  Navigator,
+  StyleSheet,
+  Text,
+  View,
+} = React
 
-AppRegistry.registerComponent('ReactNativeStarter', () => App);
+import App from './ReactStart'
+
+AppRegistry.registerComponent('ReactNativeStarter', () => App)

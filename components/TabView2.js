@@ -1,18 +1,16 @@
-'use strict';
-
-import React, { Component } from 'react'
+import React, { Component } from 'react-native'
 
 const {
   View,
   Text,
-  StyleSheet
+  StyleSheet,
 } = React
 
 export default class TabView extends Component {
   render(){
     return (
       <View style={styles.container}>
-        <Text>Tab #{this.props.name}</Text>
+        <Text>Tab {this.props.name}</Text>
       </View>
     );
   }
@@ -27,4 +25,4 @@ let styles = StyleSheet.create({
   },
 })
 
-module.exports = TabView
+export default TabView

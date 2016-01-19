@@ -1,5 +1,3 @@
-'use strict';
-
 import React, { Component } from 'react-native'
 import Button from 'apsl-react-native-button'
 
@@ -8,7 +6,7 @@ const Actions = require('react-native-router-flux').Actions
 const {
   View,
   Text,
-  StyleSheet
+  StyleSheet,
 } = React;
 
 export default class FromBottom extends Component {
@@ -33,4 +31,4 @@ let styles = StyleSheet.create({
 
 
 
-module.exports = FromBottom
+export default FromBottom

@@ -1,13 +1,11 @@
-'use strict';
-
-import React from 'react-native';
+import React from 'react-native'
 
 const {
   AppRegistry,
   Navigator,
   StyleSheet,
   Text,
-  View
+  View,
 } = React
 
 import App from './ReactStart'
