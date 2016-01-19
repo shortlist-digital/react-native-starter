@@ -5,9 +5,11 @@ Starting point for react native apps
 
 ###Setup the project in Xcode
 
-Open up your project in the terminal and in the root folder type ```npm start``` this will start up your webpack-dev-server.
+Clone the project and ```npm install``` in the root of your folder. 
 
-Then open the project ```ReactNativeStarter.xcodeproj``` (found in the ```ios``` directory) and run the project (cmd + r).  
+Then ```npm start``` in the root, this will start up your webpack-dev-server.
+
+Open the project ```ReactNativeStarter.xcodeproj``` (found in the ```ios``` directory) and click on the project (top left) and select ```SHORTLIST MEDIA LTD``` as your team, then run the project (cmd + r).  
 
 ##Build and run the app on a device
 
