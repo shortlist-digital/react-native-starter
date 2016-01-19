@@ -9,7 +9,7 @@ const {
   StyleSheet,
 } = React;
 
-export default class FromBottom extends Component {
+export default class BottomView extends Component {
   render(){
     return (
       <View style={styles.container}>
@@ -31,4 +31,4 @@ let styles = StyleSheet.create({
 
 
 
-export default FromBottom
+export default BottomView

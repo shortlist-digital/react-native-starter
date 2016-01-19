@@ -1,6 +1,6 @@
 import React, { Component } from 'react-native'
 import Launch from './components/Launch'
-import FromBottom from './components/FromBottom'
+import BottomView from './components/BottomView'
 import Error from './components/Error'
 import TabView from './components/TabView'
 
@@ -37,9 +37,9 @@ export default class Example extends Component {
         <Schema name="withoutAnimation"/>
         <Schema name="tab" type="switch" icon={TabIcon} />
 
-        <Route name="FromBottom" schema="modal">
-            <Router name="FromBottomRouter">
-                <Route name="FromBottomModal" component={FromBottom} title="FromBottom" schema="modal"/>
+        <Route name="BottomView" schema="modal">
+            <Router name="BottomViewRouter">
+                <Route name="BottomViewModal" component={BottomView} title="BottomView" schema="modal"/>
             </Router>
         </Route>
 

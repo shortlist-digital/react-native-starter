@@ -16,7 +16,7 @@ export default class Launch extends Component {
     return (
       <View style={styles.container}>
         <Button onPress={Actions.tabbar}>Go to the next page</Button>
-        <Button onPress={()=>Actions.FromBottom({data:"Custom data", title:'Custom title' })}>Swipe page from the bottom</Button>
+        <Button onPress={()=>Actions.BottomView({data:"Custom data", title:'Custom title' })}>Swipe page from the bottom</Button>
       </View>
     );
   }
