@@ -42,8 +42,8 @@ Include the following at the top of your JS componenet when you want to include 
 
 Include the following at the top of your JS componenet when you want to include it
 
-```import Parse from 'parse/react-native'
-import ParseReact from 'parse-react/react-native'```
+```import Parse from 'parse/react-native'```
+```import ParseReact from 'parse-react/react-native'```
 
 
 
