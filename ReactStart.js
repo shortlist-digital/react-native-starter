@@ -1,5 +1,3 @@
-'use strict'
-
 import React, { Component } from 'react-native'
 import Launch from './components/Launch'
 import FromBottom from './components/FromBottom'
@@ -46,7 +44,7 @@ export default class Example extends Component {
         </Route>
 
         <Route name="tabbar">
-          <Router footer={TabBar} showNavigationBar={false}>
+          <Router footer={TabBar} showNavigationBar={true}>
               <Route name="tab1" schema="tab" title="Tab #1" >
                 <Router onPop={()=>{return true} }>
                   <Route name="tab1" component={TabView} title="Tab #1" />

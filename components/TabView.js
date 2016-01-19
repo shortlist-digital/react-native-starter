@@ -16,7 +16,6 @@ export default class TabView extends Component {
   render(){
     return (
       <View style={styles.container}>
-        <Text>Next Screen</Text>
         {this.props.name === "tab1_1" &&
         <Button onPress={Actions.tab1_2}>next screen</Button>
         }

@@ -8,7 +8,7 @@ const Actions = require('react-native-router-flux').Actions
 const {
   View,
   Text,
-  StyleSheet
+  StyleSheet,
 } = React;
 
 export default class FromBottom extends Component {

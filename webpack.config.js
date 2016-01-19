@@ -12,8 +12,8 @@
     debug: true,
     devtool: 'source-map',
     entry: {
-      'index.ios': ['./src/main.ios.js'],
-      'index.android': ['./src/main.android.js'],
+      'index.ios': ['index.ios.js'],
+      'index.android': ['index.android.js'],
     },
     output: {
       path: path.resolve(__dirname, 'build'),

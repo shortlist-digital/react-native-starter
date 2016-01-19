@@ -1,5 +1,4 @@
 'use strict'
-
 import React from 'react-native'
 
 const {
@@ -7,7 +6,7 @@ const {
   Navigator,
   StyleSheet,
   Text,
-  View
+  View,
 } = React
 
 import App from './ReactStart'
