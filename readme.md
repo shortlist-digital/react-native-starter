@@ -32,8 +32,18 @@ Once it is running on your phone, shake your phone to open the development menu 
 ##### Not working yet (them not me) but I figured out how to do it so thought it was worth noting down still
 You will also want to enable Enable Chrome Debugging too so go into the ```RCTWebSocketExecutor.m``` file in Xcode (Libraries/RCTWebSocket.xcodeproj) and change the localhost in this file to your IP address too. Then save, shake the phone and select 'Debug in Chrome'.
 
-##Install guides - 
+##Additional installs - 
 
-[React Native Device info](https://github.com/rebeccahughes/react-native-device-info) - I have done iOS, will need to do Android when I get it working on a device.
+- [React Native Device info](https://github.com/rebeccahughes/react-native-device-info) - I have done iOS, will need to do Android when I get it working on a device.
+
+Include the following at the top of your JS component when you want to include it -  ```import DeviceInfo from 'react-native-device-info'```
+
+- [Parse React](https://www.npmjs.com/package/parse-react)
+
+Include the following at the top of your JS component when you want to include it
+
+```import Parse from 'parse/react-native'```
+```import ParseReact from 'parse-react/react-native'```
+
 
 
