@@ -45,5 +45,26 @@ You will also want to change the name in the ```AppDelegate.m``` file in Xcode. 
 
 After this quit the terminal that the app server opened up in earlier as this localhost:8081 will be pointing to the wrong place. Then run the app again, restarting a new localhost:8081 server.
 
+## Useful packages
+
+[React Native Side Menu](https://github.com/react-native-fellowship/react-native-side-menu)
+
+[Google Ad Mob Banners](https://github.com/sbugert/react-native-admob)
+
+[Background Geo Location](https://github.com/transistorsoft/react-native-background-geolocation)
+
+[Google Material Design UI Kit](https://github.com/xinthink/react-native-material-kit)
+
+[Native Blur of images and components](https://github.com/react-native-fellowship/react-native-blur)
+
+[Animate.css for React Native](https://github.com/oblador/react-native-animatable)
+
+[Simple wrapper around Push Notifications](https://github.com/zo0r/react-native-push-notification)
+
+[Simple wrapper around File System access](https://github.com/johanneslumpe/react-native-fs)
+
+[Apple iAd (deprecated)](https://github.com/Purii/react-native-adbannerview)
+
+[Parallax Image View](https://github.com/oblador/react-native-parallax)
 
 
