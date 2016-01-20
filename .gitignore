@@ -2,6 +2,8 @@
 #
 .DS_Store
 
+main.jsbundle
+
 # Xcode
 #
 build/
