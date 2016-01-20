@@ -1,4 +1,4 @@
-package com.stylistlive;
+package com.reactnativestarter;
 
 import android.app.Activity;
 import android.os.Bundle;
