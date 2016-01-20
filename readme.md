@@ -77,7 +77,3 @@ Microsoft have a service that allows you to push image assets and javascript to 
 
 [Microsoft Code Push](http://microsoft.github.io/code-push/)
 
-
-
-
-

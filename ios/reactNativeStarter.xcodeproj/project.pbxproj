@@ -64,7 +64,7 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = StylistLive;
+			remoteInfo = reactNativeStarter;
 		};
 		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -202,7 +202,7 @@
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
 			name = reactNativeStarterTests;
-			path = StylistLiveTests;
+			path = reactNativeStarterTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -322,7 +322,7 @@
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
 			name = reactNativeStarterTests;
-			productName = StylistLiveTests;
+			productName = reactNativeStarterTests;
 			productReference = 00E356EE1AD99517003FC87E /* reactNativeStarter.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -362,7 +362,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeStarter" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactNativeStarter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -758,7 +758,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeStarter" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactNativeStarter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

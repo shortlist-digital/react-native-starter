@@ -15,7 +15,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  
+
   NSURL *jsCodeLocation;
 
   /**
@@ -31,8 +31,8 @@
    * `inet` value under `en0:`) and make sure your computer and iOS device are
    * on the same Wi-Fi network.
    */
-  
-  
+
+
     /**
    * OPTION 2
    * Load from pre-bundled file on disk. The static bundle is automatically
@@ -40,12 +40,12 @@
    */
 
 //   jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
-  
+
 //    Amended file to say if I am in dev environment use my phone else used the bundled verison which we would
 //    use when giving the presentations
-  
+
     #if DEBUG
-      jsCodeLocation = [NSURL URLWithString:@"http://10.10.10.135:8081/index.ios.bundle?platform=ios&dev=true"];
+      jsCodeLocation = [NSURL URLWithString:@"http://192.168.2.17:8081/index.ios.bundle?platform=ios&dev=true"];
     #else
       jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
     #endif
