@@ -14,7 +14,6 @@ export default class TabView extends Component {
   render(){
     return (
       <View style={styles.container}>
-        <Button onPress={Actions.tabbar}>Go to the next page</Button>
         <Button onPress={Actions.pop}>Go Back</Button>
       </View>
     );

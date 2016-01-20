@@ -31,11 +31,7 @@
    * `inet` value under `en0:`) and make sure your computer and iOS device are
    * on the same Wi-Fi network.
    */
-
-   
-   jsCodeLocation = [NSURL URLWithString:@"http://10.10.10.135:8081/index.ios.bundle?platform=ios&dev=true"];
-   
-    // Kim phone - 10.10.10.135
+  
   
     /**
    * OPTION 2
@@ -44,6 +40,16 @@
    */
 
 //   jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
+  
+//    Amended file to say if I am in dev environment use my phone else used the bundled verison which we would
+//    use when giving the presentations
+  
+    #if DEBUG
+      jsCodeLocation = [NSURL URLWithString:@"http://10.10.10.135:8081/index.ios.bundle?platform=ios&dev=true"];
+    #else
+      jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
+    #endif
+
 
   RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
                                                       moduleName:@"ReactNativeStarter"
