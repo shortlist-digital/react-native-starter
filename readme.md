@@ -71,5 +71,13 @@ After this quit the terminal that the app server opened up in earlier as this lo
 
 [React.Parts](https://react.parts/native) has a great list of userland React Native modules.
 
+## Reduce submissions to the app store
+
+Microsoft have a service that allows you to push image assets and javascript to your device without needing to do an Apple submission:
+
+[Microsoft Code Push](http://microsoft.github.io/code-push/)
+
+
+
 
 
