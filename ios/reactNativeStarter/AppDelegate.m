@@ -17,6 +17,7 @@
 {
 
   NSURL *jsCodeLocation;
+  NSString *myIP = @"10.10.10.135";
 
   /**
    * Loading JavaScript code - uncomment the one you want.
@@ -45,7 +46,7 @@
 //    use when giving the presentations
 
     #if DEBUG
-      jsCodeLocation = [NSURL URLWithString:@"http://10.10.10.135:8081/index.ios.bundle?platform=ios&dev=true"];
+      jsCodeLocation = [NSURL URLWithString:[NSString stringWithFormat:@"http://%@:8081/index.ios.bundle?platform=ios&dev=true", myIP]];
     #else
       jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
     #endif
