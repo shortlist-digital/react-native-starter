@@ -41,7 +41,9 @@ Used [react-native-router-flux](https://github.com/aksonov/react-native-router-f
 
 [Follow instructions in this article](http://jslim.net/blog/2015/01/08/how-to-rename-xcode-project-thoroughly/)
 
-You will also want to change the name in the ```AppDelegate.m``` file in Xcode. Scroll down and look at the ```RCTRootView``` and you will need to change line 47 ```moduleName:@"ReactNativeStarter"``` to the name of the project you want.  
+You will also need to change the name in the ```AppDelegate.m``` file in Xcode. Scroll down and look at the ```RCTRootView``` and you will need to change line 47 ```moduleName:@"ReactNativeStarter"``` to the name of the project you want.  
+
+You will also need to change the last line in ```index.ios.js``` and ```index.android.js``` to point to the name of your app and not ```ReactNativeStarter```.
 
 After this quit the terminal that the app server opened up in earlier as this localhost:8081 will be pointing to the wrong place. Then run the app again, restarting a new localhost:8081 server.
 
