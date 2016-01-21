@@ -3,9 +3,7 @@ import Button from 'apsl-react-native-button'
 
 const {
   View,
-  Text,
   StyleSheet,
-  TouchableHighlight,
 } = React
 
 const Actions = require('react-native-router-flux').Actions

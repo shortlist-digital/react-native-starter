@@ -1,9 +1,7 @@
 import React, { Component } from 'react-native'
 
 const {
-  View,
   Text,
-  StyleSheet,
 } = React
 
 export default class TabIcon extends Component {

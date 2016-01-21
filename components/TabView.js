@@ -5,7 +5,6 @@ const Actions = require('react-native-router-flux').Actions
 
 const {
   View,
-  Text,
   StyleSheet,
 } = React
 
