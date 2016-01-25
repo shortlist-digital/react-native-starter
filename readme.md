@@ -69,6 +69,10 @@ After this quit the terminal that the app server opened up in earlier as this lo
 
 [Parallax Image View](https://github.com/oblador/react-native-parallax)
 
+## Useful articles
+
+[Adding custom fonts](https://medium.com/@dabit3/adding-custom-fonts-to-react-native-b266b41bff7f)
+
 ## React Parts
 
 [React.Parts](https://react.parts/native) has a great list of userland React Native modules.
