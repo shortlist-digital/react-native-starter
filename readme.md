@@ -89,4 +89,4 @@ Microsoft have a service that allows you to push image assets and javascript to 
 
 ## Gotchas
 
-- Naturally views in iOS are not scrollable so you'll see in launch.js I have wrapped everything in a ```<ScrollView>``` with the child container width and height 100%, and a margin to reflect the top navigation bar and bottom tab bar. I have only done it on this page, so if it is necassary on all pages it will need to be done.
+- Naturally views in iOS are not scrollable so you'll see in launch.js I have wrapped everything in ```<ScrollView>``` with the child container width and height 100%, and a margin to reflect the top navigation bar and bottom tab bar. I have only done it on this page, so if it is necassary on all pages it will need to be done.
