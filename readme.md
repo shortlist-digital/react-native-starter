@@ -33,6 +33,8 @@ Include the following at the top of your JS component when you want to include i
 ```import Parse from 'parse/react-native'```
 ```import ParseReact from 'parse-react/react-native'```
 
+- [Fabric](https://github.com/corymsmith/react-native-fabric)
+
 ##Routing
 
 Used [react-native-router-flux](https://github.com/aksonov/react-native-router-flux) to get started with routing

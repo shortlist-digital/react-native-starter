@@ -1,3 +1,6 @@
 rootProject.name = 'ReactNativeStarter'
 
 include ':app'
+
+include ':react-native-fabric'
+project(':react-native-fabric').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fabric/android')

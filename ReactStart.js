@@ -4,6 +4,7 @@ import BottomView from './components/BottomView'
 import Error from './components/Error'
 import TabView from './components/TabView'
 import TabView2 from './components/TabView2'
+import Fabric from 'react-native-fabric'
 
 const {
   Router,
