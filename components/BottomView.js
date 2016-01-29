@@ -7,6 +7,7 @@ const {
   View,
   Text,
   StyleSheet,
+  Alert,
 } = React;
 
 export default class BottomView extends Component {
@@ -14,6 +15,7 @@ export default class BottomView extends Component {
     return (
       <View style={styles.container}>
         <Text>Page from the bottom</Text>
+          <Button onPress={() => Alert.alert('An alert')}>An alert</Button>
         <Button onPress={Actions.pop}>Close</Button>
       </View>
     );
