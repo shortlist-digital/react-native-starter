@@ -16,6 +16,7 @@ export default class Launch extends Component {
     return (
       <ScrollView>
         <View style={styles.container}>
+          <Button onPress={Actions.tabbar}>Go to the next page</Button>
           <Button onPress={()=>Actions.BottomView()}>Swipe page from the bottom</Button>
         </View>
       </ScrollView>
