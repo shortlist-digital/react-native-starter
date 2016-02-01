@@ -20,6 +20,18 @@ Once it is running on your phone, shake your phone to open the development menu 
 ##### The following does not work yet (them not me) but I figured out how to do it so thought it was worth noting down still.
 You will also want to enable Enable Chrome Debugging too so go into the ```RCTWebSocketExecutor.m``` file in Xcode (Libraries/RCTWebSocket.xcodeproj) and change the localhost in this file to your IP address too. Then save, shake the phone and select 'Debug in Chrome'.
 
+####On device for presentation
+
+- Plug in phone
+- Product -> Archive
+- Export (right menu)
+- Check Save for Development Deployment -> Next
+- Select Shortlist Media as your Dev Team might already be selected in which case click choose)
+- Keep export one all for all compatible devices selected -> Next
+
+- Open Window -> Devices
+- Add the ipa file via the + button
+
 ##Additional installs 
 
 - [React Native Device info](https://github.com/rebeccahughes/react-native-device-info) - I have done iOS, will need to do Android when I get it working on a device.
