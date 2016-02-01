@@ -1,12 +1,12 @@
-import React, { Component } from 'react-native'
-import Button from 'apsl-react-native-button'
-
-const {
+import React, {
+  Component,
   ScrollView,
   View,
   StyleSheet,
   Dimensions,
-} = React
+} from 'react-native'
+
+import Button from 'apsl-react-native-button'
 
 const Actions = require('react-native-router-flux').Actions
 

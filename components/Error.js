@@ -1,13 +1,13 @@
-import React, { Component } from 'react-native'
-import Button from 'apsl-react-native-button'
-
-const Actions = require('react-native-router-flux').Actions
-
-const {
+import React, {
+  Component,
   View,
   Text,
   StyleSheet,
-} = React
+} from 'react-native'
+
+import Button from 'apsl-react-native-button'
+
+const Actions = require('react-native-router-flux').Actions
 
 export default class Error extends Component {
   render(){

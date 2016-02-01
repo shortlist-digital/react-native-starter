@@ -1,13 +1,12 @@
-import React, { Component } from 'react-native'
+import React, {
+  Component,
+  View,
+  StyleSheet,
+} from 'react-native'
+
 import Button from 'apsl-react-native-button'
 
 const Actions = require('react-native-router-flux').Actions
-
-const {
-  View,
-  StyleSheet,
-} = React
-
 
 export default class TabView extends Component {
   render(){

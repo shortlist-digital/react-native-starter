@@ -1,4 +1,12 @@
-import React, { Component } from 'react-native'
+import React, {
+  Component,
+  AppRegistry,
+  Navigator,
+  StyleSheet,
+  Text,
+  View,
+} from 'react-native'
+
 import Launch from './components/Launch'
 import BottomView from './components/BottomView'
 import Error from './components/Error'
@@ -13,14 +21,6 @@ const {
   Animations,
   TabBar,
 } = require('react-native-router-flux')
-
-const {
-  AppRegistry,
-  Navigator,
-  StyleSheet,
-  Text,
-  View,
-} = React
 
 export default class TabIcon extends Component {
   render(){

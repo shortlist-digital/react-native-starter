@@ -1,10 +1,9 @@
-import React, { Component } from 'react-native'
-
-const {
+import React, {
+  Component,
   View,
   Text,
   StyleSheet,
-} = React
+} from 'react-native'
 
 export default class TabView extends Component {
   render(){

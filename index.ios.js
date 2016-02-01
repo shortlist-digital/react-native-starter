@@ -1,12 +1,10 @@
-import React from 'react-native'
-
-const {
+import React, {
   AppRegistry,
   Navigator,
   StyleSheet,
   Text,
   View,
-} = React
+} from 'react-native'
 
 import App from './ReactStart'
 

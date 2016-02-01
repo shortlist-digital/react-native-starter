@@ -1,8 +1,7 @@
-import React, { Component } from 'react-native'
-
-const {
+import React, {
+  Component,
   Text,
-} = React
+} from 'react-native'
 
 export default class TabIcon extends Component {
   render(){
